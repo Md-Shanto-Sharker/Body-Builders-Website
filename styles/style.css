@@ -1,0 +1,136 @@
+@import url("https://fonts.cdnfonts.com/css/miama");
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+.miama-fonts {
+  font-family: "Miama", sans-serif;
+  font-size: 78px;
+  font-weight: 200;
+}
+.inter-fonts {
+  font-family: "Inter", serif;
+  font-optical-sizing: auto;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  font-family: "Inter", serif;
+}
+
+/* shared styles */
+.primary-btn{
+  background-color: #E6533C;
+  padding: 10px 20px;
+  color: white;
+  border: none;
+  border-radius: 46px;
+}
+
+/* header styles */
+.header{
+  width: 80%;
+  margin:0 auto;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-heading{
+    color:#E6533C;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.list-container{
+    display: flex;
+    gap: 57px;
+}
+.list{
+    list-style: none;
+    color: white;
+}
+
+/* banner section */
+.banner-heading{
+    font-size:70px ;
+    color: white;
+}
+.spacial-latter{
+  font-family: "Miama", sans-serif;
+  font-weight: 200;
+  
+}
+.banner-paragraph{
+  font-size: 16px;
+  color: white;
+  opacity: 50%;
+}
+
+.banner-download-btn{
+  background: none;
+  border: 1px solid white;
+  margin-left: 20px;
+  
+}
+.banner{
+  display: flex;
+  justify-content:space-between;
+  align-items: center;
+}
+.nav-icon{
+  color: white;
+  display: none;
+}
+.h-350{
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+.p-350{
+  font-size: 20px;
+  color: white;
+  opacity: 65%;
+}
+.red-div{
+  background: #E6533C;
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  
+}
+.banner-350-card{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  filter: blur(10px);
+  
+}
+@media screen and (max-width:576px) {
+  .banner{
+    flex-direction: column;
+  }
+  .nav-icon{
+    display: block;
+    font-size: 45px;
+  }
+  .list-container{
+    display: none;
+  }
+  .banner-heading{
+    font-size: 48px;
+  }
+  .btn-div-nav{
+    display: flex;
+    justify-content: space-between;
+  }
+  .banner-download-btn{
+    font-size: 17px;
+  }
+  .banner-join-btn{
+    font-size: 17px;
+  }
+  .br-tag{
+    display: none;
+  }
+}
